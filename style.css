@@ -1,0 +1,247 @@
+body {
+  font-family: Roboto,arial,sans-serif;
+  font-size: 14px;
+  color: #222;
+}
+
+.navBar {
+  margin-top: 15px;
+  display: -webkit-inline-flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  letter-spacing: 1.2px;
+}
+
+
+.credit {
+  display: flex;
+  align-items: flex-end;
+}
+
+.sign-in-link {
+  text-decoration: none;
+}
+
+.about-link, .store-link {
+  text-decoration: none;
+  color: #000000;
+  padding: 15px 5px;
+}
+
+.about-link:hover, .store-link:hover {
+  text-decoration: underline;
+}
+
+.box-icon-link {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+ 
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.box-icon-link:hover {
+  border: 1px solid #F8F9FA;
+  background-color: #F8F9FA;
+  border-radius: 50%;
+ 
+}
+
+.gmail-link, .images-link {
+  padding: 15px 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.gmail-link:hover, .images-link:hover {
+  text-decoration: underline;
+}
+
+.sign-in-button {
+  color: #FFFFFF;
+  background-color:#1A73E8;
+  border-color: #1A73E8;
+  font-weight: 500;
+  padding: 9px 23px;
+  border-radius: 5px;
+  margin: 0px 8px;
+  font-size: 14px;
+  font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.25px;
+  line-height: 16px;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.sign-in-button:hover {
+  padding: 10px 30px;
+}
+
+.left-side {
+  display: flex;
+  margin-left: 15px;
+}
+
+.right-side {
+  display: flex;
+  margin-right: 15px;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.middle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.google-logo {
+  bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.google-link {
+  margin: auto;
+}
+
+#search-bar {
+  border-radius: 24px;
+  border-color: lightgrey;
+  width: 500px;
+  height: 40px;
+}
+
+#search-bar-container {
+  margin: auto;
+  padding: 5px 8px 0px 14px;
+}
+
+#mic-image{
+  position: relative;
+  right: -525px;
+  top: 8px;
+}
+
+#search-image {
+  position: relative;
+  left: 35px;
+  top: 8px;
+}
+
+.buttons-below-search {
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+}
+
+.search-button {
+  position: relative;
+  right: 15px;
+  padding: 10px 20px;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  font-weight: 500;
+  background-color: #F8F9FA;
+  border: 1px solid #F8F9FA;
+}
+
+.search-button:hover {
+  border: 1px solid #F8F9FA;
+  padding: 15px 25px;
+}
+
+.feeling-lucky-button {
+  position: relative;
+  left: 15px;
+  padding: 10px 20px;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  font-weight: 500;
+  background-color: #F8F9FA;
+  border: 1px solid #F8F9FA;
+}
+
+.feeling-lucky-button:hover {
+  border: 1px solid #F8F9FA;
+  padding: 15px 25px;
+}
+
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  background-color:#F8F9FA;
+  letter-spacing: 1.2px;
+}
+
+
+.advertising-link, .business-link, .how-search-works-link, .privacy-link, .terms-link, .settings-link, .carbon-neutral{
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+}
+
+.privacy-link, .settings-link, .terms-link {
+  position: relative;
+  left: 625px;
+  float: right;
+}
+
+
+.advertising-link, .business-link, .how-search-works-link{
+  float: left;
+  position: relative;
+  left: 25px;
+}
+
+.carbon-neutral{
+  position: relative;
+  top: 11px;
+  left: 275px;
+}
+
+.advertising-link:hover, .business-link:hover, .how-search-works-link:hover, .privacy-link:hover, .terms-link:hover, .settings-link:hover {
+  text-decoration: underline;
+} 
